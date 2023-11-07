@@ -6,3 +6,20 @@ body{
 .item {
     font-size: 25px;
 }
+
+/* Применяем flex к контейнеру-обертке */
+.es5, .es6, .wrapper {
+    
+    display: flex;
+    line-height: 50px;
+  }
+  
+  /* убираем маркеры у списка*/
+  li, div {
+    list-style-type: none;
+  }
+  
+  .block {
+    border: 1px solid blue;
+    margin: 2px;
+  }
